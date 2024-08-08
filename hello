@@ -1,0 +1,132 @@
+local args = {
+    [1] = {
+        ["Dash"] = Enum.KeyCode.W,
+        ["Key"] = Enum.KeyCode.Q,
+        ["Goal"] = "KeyPress"
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        ["Goal"] = "delete bv",
+        ["BV"] = getNil("moveme", "BodyVelocity")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+local args = {
+    [1] = {
+        ["Mobile"] = true,
+        ["Goal"] = "LeftClick"
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(1.9)
+local args = {
+    [1] = {
+        ["Goal"] = "LeftClickRelease",
+        ["Mobile"] = true
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(0.33)
+game.Players.LocalPlayer.Character.Humanoid.Jump = true
+
+wait(0.33)
+local args = {
+    [1] = {
+        ["Goal"] = "Console Move",
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Hunter's Grasp")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+
+local args = {
+    [1] = {
+        ["Goal"] = "Auto Use End",
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Hunter's Grasp")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(2.5)
+local args = {
+    [1] = {
+        ["Dash"] = Enum.KeyCode.W,
+        ["Key"] = Enum.KeyCode.Q,
+        ["Goal"] = "KeyPress"
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        ["Goal"] = "delete bv",
+        ["BV"] = getNil("moveme", "BodyVelocity")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = {
+        ["Goal"] = "Console Move",
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Lethal Whirlwind Stream")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+local args = {
+    [1] = {
+        ["Goal"] = "Auto Use End",
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Lethal Whirlwind Stream")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(2.6)
+local args = {
+    [1] = {
+        ["Goal"] = "Console Move",
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Flowing Water")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+local args = {
+    [1] = {
+        ["Goal"] = "Auto Use End",
+        ["Tool"] = game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Flowing Water")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(2.6)
+local args = {
+    [1] = {
+        ["Dash"] = Enum.KeyCode.W,
+        ["Key"] = Enum.KeyCode.Q,
+        ["Goal"] = "KeyPress"
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
+wait(1)
+function getNil(name,class) for _,v in pairs(getnilinstances())do if v.ClassName==class and v.Name==name then return v;end end end
+
+local args = {
+    [1] = {
+        ["Goal"] = "delete bv",
+        ["BV"] = getNil("moveme", "BodyVelocity")
+    }
+}
+
+game:GetService("Players").LocalPlayer.Character.Communicate:FireServer(unpack(args))
